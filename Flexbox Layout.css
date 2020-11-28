@@ -1,22 +1,25 @@
 body{
-
 background-color: bisque;
-
-
 }
-.container {
+.flex-container {
     display: flex;
+    flex-flow: row wrap;
   }
   
-  .item {
-    height: 100px;
-    width: 100px; 
+  .flex-container>div {
+    margin: 10px;
+    
+    border:1px solid;
+    box-sizing:border-box;
   }
-  
-  .item-center { 
-    flex-grow: 1; 
+  .flex-container>div:first-child {
+     width:60px; 
+     flex-shrink:0; 
   }
-  
-  .item + .item { 
-    margin-left: 2%; 
+  .flex-container>div:nth-child(2) {
+    flex-grow:1; 
+  }
+  .flex-container>div:nth-child(3) {
+    flex-grow:1;  
+    max-width:200px; 
   }
