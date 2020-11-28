@@ -60,10 +60,22 @@ color: white;
 
  } 
  a{
-
     color: white;
+
  }
-  @media screen and (max-width: 1200px) {
+ a:active {
+    color: white;
+  } 
+  a:hover {
+    color: #FF00FF;
+  }
+  a:link {
+    color: #FF0000;
+  }
+  a:visited {
+    color: #00FF00;
+  }
+ @media screen and (max-width: 1200px) {
     body {
       font-size: 12px;
     }
