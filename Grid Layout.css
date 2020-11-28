@@ -56,7 +56,7 @@
   
   }
  ul{
-color: white;
+color : black;
 
  } 
  a{
@@ -75,7 +75,12 @@ color: white;
   a:visited {
     color: #00FF00;
   }
- @media screen and (max-width: 1200px) {
+ footer{
+  color: white;
+
+
+ }
+  @media screen and (max-width: 1200px) {
     body {
       font-size: 12px;
     }
