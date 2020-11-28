@@ -23,3 +23,8 @@ background-color: bisque;
     flex-grow:1;  
     max-width:200px; 
   }
+  h1
+  {
+    text-align: center;
+
+  }
