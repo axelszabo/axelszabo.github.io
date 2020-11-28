@@ -55,24 +55,22 @@
     border-top: 4px solid blue;
   
   }
-  
-  @media screen and (max-width: 550px) {
+ ul{
+color: white;
+
+ } 
+ a{
+
+    color: white;
+ }
+  @media screen and (max-width: 1200px) {
     body {
-      --font-size: 12px;
+      font-size: 12px;
     }
   
     #wrapper-grid {
       grid-template-columns: 1fr;
     }
-  
-    .header {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      margin-bottom: 1.5em;
-  
-  
-    }
-  }
+}
   
 
