@@ -1,6 +1,22 @@
 body{
 
+background-color: bisque;
 
 
-    
 }
+.container {
+    display: flex;
+  }
+  
+  .item {
+    height: 100px;
+    width: 100px; 
+  }
+  
+  .item-center { 
+    flex-grow: 1; 
+  }
+  
+  .item + .item { 
+    margin-left: 2%; 
+  }
