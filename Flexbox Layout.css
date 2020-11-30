@@ -25,3 +25,12 @@ a:hover{
   font-size: 1.5em;
   color: purple;
 }
+.tartalom{
+  background-color: burlywood;
+  margin: auto;
+  width: 900px;
+  padding: 15px;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+}
