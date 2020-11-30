@@ -25,6 +25,9 @@ a:hover{
   font-size: 1.5em;
   color: purple;
 }
+h1{
+  text-align: center;
+}
 .tartalom{
   background-color: burlywood;
   margin: auto;
