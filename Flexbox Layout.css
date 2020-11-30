@@ -7,7 +7,7 @@ body{
   width: 1000px;
   margin: auto;
 }
-menu{
+.menu{
   width: 900px;
   margin: auto;
   border-top: 10px solid black;
@@ -28,6 +28,9 @@ a:hover{
 h1{
   text-align: center;
 }
+#sor{
+  text-align: center;
+}
 .tartalom{
   background-color: honeydew;
   margin: auto;
@@ -43,12 +46,46 @@ img{
   }
 
   table>td{
-    width: 400px;
+    width: 500px;
   }
   table>tr{
-    width: 400px;
+    width: 500px;
   }
-  table{
-    width: 400px;
-    margin: auto;
+  @media screen and (max-width:576px){
+    .oldal{width: 500px;
+    }
+    .menu{
+        width: 400px;
+    }
+    .tartalom{
+        width: 400px;
+    }
+    table{
+        width: 400px;
+        margin: auto;
+    }
+    table>tr{
+        width: 300px;
+    }
+     img{
+        width: 100px;
+        height: auto;
+     }   
+    
+        table>td{
+        width: 300px;
+    }
+    
+    
+   
   }
+  @media screen and (max-width:1200px){
+    .menu{
+        width: 700px;
+    }
+   
+    .tartalom{
+        width: 700px;
+    }
+  }
+}
