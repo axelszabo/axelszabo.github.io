@@ -7,3 +7,21 @@ body{
   width: 1000px;
   margin: auto;
 }
+menu{
+  width: 900px;
+  margin: auto;
+  border-top: 10px solid black;
+  border-right: 10px solid black;
+  border-left: 10px solid black;
+  font-size: 20px;
+  padding: 15px;
+  background-color: lightblue;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  font-size: 1.5em;
+  color: purple;
+}
