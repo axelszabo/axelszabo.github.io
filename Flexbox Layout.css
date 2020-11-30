@@ -1,5 +1,5 @@
 body{
-  background-color: bisque;
+  background-color: lightblue;
 }
 .oldal{
   display: flex;
@@ -29,7 +29,7 @@ h1{
   text-align: center;
 }
 .tartalom{
-  background-color: burlywood;
+  background-color: honeydew;
   margin: auto;
   width: 900px;
   padding: 15px;
