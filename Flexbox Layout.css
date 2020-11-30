@@ -4,7 +4,7 @@ body{
 .oldal{
   display: flex;
   flex-flow: wrap;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
 }
 .menu{
@@ -25,6 +25,10 @@ a:hover{
   font-size: 1.5em;
   color: purple;
 }
+a:hover{
+  font-size: 1.5em;
+  color: lightgreen;
+}
 h1{
   text-align: center;
 }
@@ -43,6 +47,7 @@ h1{
 img{
    height: auto;
   width: 200px;
+  
   }
 
   table>td{
@@ -88,4 +93,3 @@ img{
         width: 700px;
     }
   }
-}

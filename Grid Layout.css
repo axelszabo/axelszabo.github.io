@@ -63,17 +63,22 @@ color : black;
     color: white;
 
  }
+ a{
+text-decoration: none;
+color: black;
+ }
  a:active {
     color: white;
   } 
   a:hover {
     color: #FF00FF;
+    font-size: 1em;
   }
   a:link {
     color: #FF0000;
   }
   a:visited {
-    color: #00FF00;
+    color: cornflowerblue;
   }
  footer{
   color: white;
