@@ -22,12 +22,8 @@ a{
   color: black;
 }
 a:hover{
-  font-size: 1.5em;
-  color: purple;
-}
-a:hover{
-  font-size: 1.5em;
-  color: lightgreen;
+  
+  color: lightseagreen;
 }
 h1{
   text-align: center;

@@ -65,21 +65,20 @@ color : black;
  }
  a{
 text-decoration: none;
-color: black;
+color: lightcoral;
  }
- a:active {
-    color: white;
-  } 
-  a:hover {
+ a:hover {
     font-size: 1em;
     color: #FF00FF;
   }
+ a:active {
+    color: white;
+  } 
+  
   a:link {
     color: #FF0000;
   }
-  a:visited {
-    color: cornflowerblue;
-  }
+  
  footer{
   color: white;
 
