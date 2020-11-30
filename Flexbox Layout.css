@@ -41,3 +41,14 @@ img{
    height: auto;
   width: 200px;
   }
+
+  table>td{
+    width: 400px;
+  }
+  table>tr{
+    width: 400px;
+  }
+  table{
+    width: 400px;
+    margin: auto;
+  }
