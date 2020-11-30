@@ -71,8 +71,8 @@ color: black;
     color: white;
   } 
   a:hover {
-    color: #FF00FF;
     font-size: 1em;
+    color: #FF00FF;
   }
   a:link {
     color: #FF0000;
